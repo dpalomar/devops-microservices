@@ -1,0 +1,28 @@
+{
+    "gatewayApp": {
+        "todo" : {
+            "home": {
+                "title": "Todos",
+                "createLabel": "Create a new Todo",
+                "createOrEditLabel": "Create or edit a Todo",
+                "search": "Search for Todo"
+            },
+            "delete": {
+                "question": "Are you sure you want to delete Todo {{ id }}?"
+            },
+            "detail": {
+                "title": "Todo"
+            },
+            "titulo": "Title",
+            "descripcion": "Description",
+            "recordatorio": "Reminder"
+        }
+    },
+    "todomsApp": {
+        "todo" : {
+            "created": "A new Todo is created with identifier {{ param }}",
+            "updated": "A Todo is updated with identifier {{ param }}",
+            "deleted": "A Todo is deleted with identifier {{ param }}"
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "titulo",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "descripcion",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "text"
+        },
+        {
+            "fieldName": "recordatorio",
+            "fieldType": "ZonedDateTime"
+        }
+    ],
+    "changelogDate": "20161220203612",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "todo",
+    "pagination": "pager",
+    "microserviceName": "todoms",
+    "searchEngine": "elasticsearch"
+}
